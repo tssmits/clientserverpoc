@@ -8,3 +8,5 @@ Try it out on your local machine!
 3. `pip install -r requirements.txt`
 4. `python helloworld/server.py`
 5. `python helloworld/client.py` (in a separate terminal on the same machine)
+
+readme is out of date
