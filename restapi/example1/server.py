@@ -20,7 +20,7 @@ def buy(qty):
     return "ok. New wallet value: {}".format(wallet)
 
 @app.route('/buy/<qty>', methods=['POST'])
-def buy(qty):
+def buy_qty(qty):
     global wallet
     wallet += float(qty)
     return "ok. New wallet value: {}".format(wallet)
